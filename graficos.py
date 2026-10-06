@@ -102,6 +102,7 @@ def crear_histograma_comparacion(
         valor_observado,
         linestyle="--",
         linewidth=2.5,
+        color="darkorange",
         label=f"Tu mercado: {valor_observado:.4f}",
     )
 
